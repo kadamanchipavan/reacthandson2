@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+.inputforstyles{
+    height: 40px;
+    width: 320px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+    padding: 7px;
+}
+.inputforstyles:hover{
+    background-color: aqua;
+}
+
+.labelforinput{
+   font-style: italic;
+   font-weight: bold;
+}
+.submittagstyles{
+    height: 60px;
+    width: 230px;
+    background-color: orangered;
+    border-radius: 20px ;
+}
+.submittagstyles:hover{
+    background-color: blueviolet;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: auto;
+    width: 70%;
+    margin: 5% 15%;
+    background-color: lightskyblue;
+
+}
+.box:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
+}
